@@ -39,6 +39,6 @@ def search_log(log_file, search_keyword):
         with open(log_file, 'r') as file:
             for line in file:
                 if search_keyword in line:
-                    print(line
+                    print(line)
     except FileNotFoundError:
         print("Error!! file not found.")
